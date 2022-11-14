@@ -30,6 +30,7 @@ const run = require("../functions/run.js")
             }
             this.components.push(item)
         }
+        return this;
     }
 
     async run() {

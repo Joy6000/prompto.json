@@ -1,6 +1,6 @@
 {
   "name": "prompto.json",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CL Prompt JSON Generator Tool",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "command-line",
     "prompt"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joy6000/prompto.json"
+  },
   "author": "Joy6000",
   "license": "ISC",
   "dependencies": {
