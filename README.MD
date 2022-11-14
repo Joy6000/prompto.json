@@ -60,7 +60,7 @@ prompt.run()
 ```
 And there we go! <br>
 Once the questions are answered, it will show you a preview of the JSON and the file will be created at /outputs/Output.json<br>
-If you want to look at some other examples, you can find them [here.]()
+If you want to look at some other examples, you can find them [here.](https://github.com/Joy6000/prompto.json/tree/master/test)
 
 # Dependencies 
 #### fs

@@ -1,4 +1,4 @@
-# [Output JSON]()
+# [Output JSON](https://github.com/Joy6000/prompto.json/blob/master/test/output/secondTest.json)
 
 # Code Used: 
 ```js
