@@ -56,7 +56,7 @@ Awesome. <br>
 Simple, we haven't even *ran it yet.*<br>
 Run it by calling the .run() function, which takes no params.
 ```js
-prompt.run()
+prompto.run()
 ```
 And there we go! <br>
 Once the questions are answered, it will show you a preview of the JSON and the file will be created at /outputs/Output.json<br>
