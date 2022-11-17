@@ -26,6 +26,7 @@ module.exports = async function run(data) {
         for (const component of data.components) {
             let q = await askQuestion(component.name)
             if (component.type === PromptoComponentTypes.Array) {
+                q = q.trim();
                 if (!component.split) component.split = PromptoComponentTypes.ArraySplitTypes.Comma
 
                 q = q.split(component.split)
