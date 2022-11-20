@@ -52,14 +52,13 @@ module.exports = async function run(data) {
 
         fs.writeFile(`${data.outputPath}${data.fileName.endsWith(".json") ? data.fileName : data.fileName + '.json'}`, dt, function(err) {
             if (err) throw err;
-            if (data.response) {
-                console.log(data.response)
-            }
-            if (data.showPreview) {
-                console.log(`JSON Preview: \n`, dt)
-            }
         });
-
+        if (data.response) {
+            console.log(data.response)
+        }
+        if (data.showPreview) {
+            console.log(`JSON Preview: \n`, dt)
+        }
     }
 
     await start();
